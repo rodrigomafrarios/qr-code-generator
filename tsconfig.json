@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig-paths.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "removeComments": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowJs": true,
+    "outDir": "dist",
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/**/*", "_warmup/**/*", ".vscode/**/*", "cdk.out", "dist"]
+}
